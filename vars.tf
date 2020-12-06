@@ -6,6 +6,9 @@ variable "aws_region" {
   default = "eu-north-1"
 }
 
+variable "cidr_block" {
+  default = "10.101.0.0/16"
+}
 variable "ecs_task_execution_role_name" {
   description = "ECS task execution role name"
   default = "myEcsTaskExecutionRole"
